@@ -1,28 +1,29 @@
 {
-  "name": "express-request-id",
-  "version": "1.4.0",
-  "description": "Generate UUID for request and add it to headers",
+  "name": "@ladjs/request-id",
+  "version": "2.0.0",
+  "description": "Generate UUID for request and add it to headers with support for Koa and Express",
   "main": "index.js",
   "scripts": {
     "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/floatdrop/express-request-id"
+    "url": "https://github.com/ladjs/request-id"
   },
   "keywords": [
     "express",
     "middleware",
     "request",
     "id",
-    "uuid"
+    "uuid",
+    "koa"
   ],
   "author": "Vsevolod Strukchinsky <floatdrop@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/floatdrop/express-request-id/issues"
+    "url": "https://github.com/ladjs/request-id/issues"
   },
-  "homepage": "https://github.com/floatdrop/express-request-id",
+  "homepage": "https://github.com/ladjs/request-id",
   "devDependencies": {
     "express": "~4.16.3",
     "mocha": "~5.2.0",
